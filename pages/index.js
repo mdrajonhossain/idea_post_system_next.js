@@ -61,13 +61,11 @@ const signin = ()=>{
              </div>
             <div className="privacy_policy"> Privacy Policy | Contact </div>
    </div>
-        
-
-
-
+      
 
         <div className="signin_right">
-            <img src="https://loyverse.com/sites/all/themes/loyversecom/images/home/loyverse-pos.webp"/>
+          <div className="signin_company_name">Idea Pos Systeme</div>
+          <img src="https://loyverse.com/sites/all/themes/loyversecom/images/home/loyverse-pos.webp"/>
         </div>
         
 

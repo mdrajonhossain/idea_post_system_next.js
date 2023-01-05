@@ -1,5 +1,13 @@
 
-
+.signin_company_name {
+    width: 60%;
+    position: fixed;
+    top: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
 
 .signin_main{
 	background: #ebeef2;
@@ -17,7 +25,7 @@
 }
  
 
-.signin_right{	
+.signin_right{  
 	width: 60%;
 	/*background: teal;*/
 	background:
