@@ -208,7 +208,11 @@ input[type=password] {
 
 
 
-
+.main_menu_icons{
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
  
 
 
@@ -216,7 +220,7 @@ input[type=password] {
 	width: 250px;	
 	background: teal;
 	height: calc(90vh);
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 0px;
 	/*color: white;*/	
 	overflow: auto;
 	cursor: pointer;
@@ -244,7 +248,8 @@ input[type=password] {
 	line-height: 45px;
 	padding-left: 19px;
 	border-bottom: 1px solid gray;	
-    color: white;
+  color: white;
+  position: relative;
 }
 .main_menu:hover {
 	line-height: 45px;
