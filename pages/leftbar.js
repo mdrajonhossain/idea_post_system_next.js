@@ -173,7 +173,7 @@ export default function Leftbar() {
       <div className="left_side">
         <div className="main_menu">
           <RiHome5Line color={'white'} />
-          &nbsp;Dashboards
+          &nbsp;Dashboard
         </div>
 
         <div onClick={() => pos()} className="main_menu" style={{ color: pose ? "white" : "", background: pose ? "#0a090a30" : "" }}>
