@@ -8,7 +8,6 @@ import Topbar from './topbar';
 
 
 export default function dashboard() {
-  
 
 
 
@@ -21,20 +20,20 @@ export default function dashboard() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="https://i.pinimg.com/originals/6e/cb/91/6ecb91e73eab30f51b0b29a880338147.png" />
       </Head>
-      
-       <Topbar/>
+
+      <Topbar />
 
 
 
       <div className="main">
-         <Leftbar/>
-            
-            <div className="right_side">
-              Body Side
-            </div>
+        <Leftbar />
 
-       </div>
- 
+        <div className="right_side">
+          Body Sides
+        </div>
+
+      </div>
+
 
     </>
   )
